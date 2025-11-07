@@ -65,7 +65,10 @@ The easiest way to run the application is using Docker:
 git clone https://github.com/mayurnikam266/3-Tier-Daily-Task-Manager-.git
 cd 3-Tier-Daily-Task-Manager-
 
-# 2. Start all services with one command
+# 2. Replace API_URL of login.html register.html and tasks.js files to
+const API_URL = '/api'; 
+
+# 3. Start all services with one command docker-compose
 docker-compose up -d
 
 # 3. Access the application
