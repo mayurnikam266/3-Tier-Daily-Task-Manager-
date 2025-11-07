@@ -1,5 +1,7 @@
 // API base URL - change this if your backend runs on different port
 const API_URL = 'http://localhost:5000';
+// for docker compose
+// const API_URL = '/api';
 
 // Get elements from the page
 const taskForm = document.getElementById('task-form');
