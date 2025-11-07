@@ -1,0 +1,6 @@
+# Docker ignore file for backend
+node_modules
+npm-debug.log
+.env
+.DS_Store
+*.log

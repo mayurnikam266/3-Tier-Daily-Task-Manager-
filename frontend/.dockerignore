@@ -1,0 +1,5 @@
+# Docker ignore file for frontend
+.DS_Store
+*.log
+Dockerfile
+.dockerignore
